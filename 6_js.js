@@ -18,3 +18,21 @@ console.log(sentence)
 //Escape sequence characters
 let fruit='Bana\'na'
 console.log(fruit)
+//concat()
+let concat_string = name.concat(" is a friend of ", a1);
+console.log(concat_string);
+//trim()
+let name1 = "    Samrat    ";
+console.log(name1);
+console.log("performing the trim() operation : " + name1.trim());
+//replace()
+let text = "Please visit Microsoft";
+console.log(text.replace("Microsoft", "Google"));
+//slice()
+console.log(text.slice(13, 22));
+//toUppercase()
+console.log(text.toUpperCase());
+//toLowercase()
+console.log(text.toLowerCase());
+//split
+console.log(text.split(" "));
